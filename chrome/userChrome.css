@@ -18,7 +18,7 @@
 #nav-bar {
 	order: 0;
 	border: none !important;
-	padding: 12px 0 11px 88px !important;
+	padding: 12px 0 11px 10px !important;
 	background-color: transparent !important;
 }
 
@@ -519,7 +519,9 @@ textarea {
 	height: 30px !important;
 	margin: 0 !important;
 	border-inline-start: none !important;
-	
+
+	margin-right: 50px !important;
+
 	&[movingtab] {
 		padding: 0 !important;
 	}
@@ -707,14 +709,14 @@ screenshots-buttons {
 /* Three dots */
 #PanelUI-button {
 	position: fixed;
-	right: 140px;
+	right: 115px;
 }
 
 /* edited by me so i don't get lost */
 /* extensions - puzzle icon */
 #unified-extensions-button {
 	position: fixed;
-	right: 80px;
+	right: 85px;
 }
 
 #library-button[animate]>.toolbarbutton-icon {
@@ -1111,13 +1113,13 @@ treechildren::-moz-tree-cell-text(selected) {
 	}
 
 	.titlebar-button {
-		padding: 0 4px !important;
+		padding: 1px 5px !important;
 		stroke: none !important;
 		background-color: transparent !important;
 	}
 
 	.titlebar-close {
-		order: -1;
+		order: 0;
 		background: url("neptune/titlebuttons/titlebutton-close.svg") no-repeat;
 		background-size: contain;
 	}
@@ -1231,7 +1233,6 @@ menugroup>#context-forward {
 #tabs-newtab-button,
 #TabsToolbar #new-tab-button {
 	position: fixed;
-	right: 110px;
 	list-style-image: url("neptune/icons/newtab.svg") !important;
 }
 
@@ -1277,14 +1278,6 @@ menugroup>#context-forward {
 #star-button[starred],
 #reader-mode-button[readeractive]>.urlbar-icon {
 	fill: currentColor !important;
-}
-
-body {
-  background: url("neptune/image/Orange.png") center/cover no-repeat fixed !important;
-
-  @media (prefers-color-scheme: dark) {
-    background: url("neptune/image/Blue.png") center/cover no-repeat fixed !important;
-  }
 }
 
 /*---------- Hidden ----------*/
