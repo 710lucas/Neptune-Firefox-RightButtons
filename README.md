@@ -1,4 +1,6 @@
-<h1 align="center"><strong>Neptune Firefox</strong></h1>
+<h1 align="center"><strong>Neptune Firefox (but with buttons on the right side)</strong></h1>
+
+Disclaimer (from 710lucas): I've never made an userchrome theme, i was just messing around with this one and it kinda worked, so I'm saving it here. Don't expect my changes to be 100% correct.
 
 **Instructions:** 
 - This theme works for **Firefox v128+** and is compatible with both Windows and macOS.
