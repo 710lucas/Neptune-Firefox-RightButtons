@@ -46,7 +46,7 @@
 
 #TabsToolbar {
 	background: none !important;
-	padding: 0 170px 11px 0 !important;
+	padding: 0 120px 11px 0 !important;
 }
 
 #customization-container {
@@ -110,7 +110,7 @@ findbar {
 }
 
 .findbar-textbox {
-	width: 140px !important;
+	width: 12em !important;
 	padding: 0 3px !important;
 	border: 1px solid var(--neptune-urlbar-border-color) !important;
 	background-color: transparent !important;
@@ -222,7 +222,7 @@ textarea {
 }
 
 #urlbar-container {
-	width: 320px !important;
+	width: 27em !important;
 }
 
 #urlbar-container,
@@ -271,7 +271,7 @@ textarea {
 }
 
 .urlbarView {
-	min-width: 105% !important;
+	min-width: calc(100% + 16px) !important;
 	margin: 4px 0 0 -8px !important;
 	border: none !important;
 	border-radius: 12px !important;
@@ -703,14 +703,18 @@ screenshots-buttons {
 	border: none !important;
 }
 
+/* edited by me so i don't get lost */
+/* Three dots */
 #PanelUI-button {
 	position: fixed;
-	right: 12px;
+	right: 140px;
 }
 
+/* edited by me so i don't get lost */
+/* extensions - puzzle icon */
 #unified-extensions-button {
 	position: fixed;
-	right: 110px;
+	right: 80px;
 }
 
 #library-button[animate]>.toolbarbutton-icon {
@@ -1089,7 +1093,7 @@ treechildren::-moz-tree-cell-text(selected) {
 	#TabsToolbar .titlebar-buttonbox-container {
 		visibility: visible;
 		position: absolute;
-		left: 120px;
+		left: 7px;
 		top: 18px;
 	}
 }
@@ -1102,7 +1106,7 @@ treechildren::-moz-tree-cell-text(selected) {
 	.titlebar-buttonbox-container {
 		position: absolute;
 		/* left: 20px; */
-		right: 40px;
+		right: 15px;
 		top: 21px;
 	}
 
@@ -1222,10 +1226,12 @@ menugroup>#context-forward {
 	list-style-image: url("neptune/icons/stop.svg") !important;
 }
 
+/* edited by me so i don't get lost */
+/* new tab - plus icon */
 #tabs-newtab-button,
 #TabsToolbar #new-tab-button {
 	position: fixed;
-	right: 140px;
+	right: 110px;
 	list-style-image: url("neptune/icons/newtab.svg") !important;
 }
 
