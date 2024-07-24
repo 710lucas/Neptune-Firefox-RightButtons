@@ -555,6 +555,7 @@ textarea {
 
 #tabbrowser-tabs .tabbrowser-tab .tab-background:not([selected]) {
 	background-color: var(--neptune-tabbar-tab-background) !important;
+	opacity: 0.5;
 	transition: background-color .2s ease;
 }
 
